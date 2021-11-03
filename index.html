@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Talha Portfolio</title>
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <div class="logo">
+            <img src="" alt="">
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                <li class="nav__item"><a href="#aboutme" class="nav__link">About Me</a></li>
+                <li class="nav__item"><a href="#mywork" class="nav__link">My Work</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Intro -->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hi, I am <strong>Talha Latif</strong>
+        </h1>
+        <p class="section__subsection section__subtitle--intro">Code Student</p>
+        <!-- add pic -->
+        <img src="./assets/titleimg.jpg" alt="profile pic" class="intro__img">
+    </section>
+    <!-- My Services -->
+    <section class="my-services" id="services">
+        <h2 class='section__title section__title--services'>What I Do</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Design & Develop</h3>
+                <p>Soon to be a full stack graduate from the coding bootcamp at Univesity of Toronto.</p>
+            </div>
+            <div class="service">
+                <h3>Managment/Leadership</h3>
+                <p>Years of management and lead roles in the aviation industry working with small and large teams of people at once. Used to working in busy enviorments with limited resources.</p>
+            </div>
+            <div class="service">
+                <h3>Trainer</h3>
+                <p>A well trained instructor with knowledge on how to teach people with different learning styles.</p>
+            </div>
+        </div>
+        <a href="#mywork" class="btn">My Work</a>
+    </section>
+    <!-- About Me -->
+    <section class="about-me" id="aboutme">
+        <h2 class="section__title section__title--aboutme">Who I am</h2>
+        <p class="section__subtitle section__subtitle--aboutme"></p>
+        <div class="about-me__body">
+            <p>Aviation gradute with a passion to work in the industry. Recently upgraded myself with web development knowledge. Looking to pursue a career and apply my skills in both industries.</p>
+            <p>Love travelling and adventure and always up to try new things, whether it'd be personal or career related.</p>
+        </div>
+        <img src="./assets/IMG_4843 3.JPG" alt="travel picture" class="about-me__img">
+    </section>
+    <!-- My work -->
+    <section class="my-work" id="mywork">
+        <h2 class="section__title section__title--work">My Work</h2>
+        <p class="section__subtitle section__subtitle--work">A selection of my work</p>
+        <div class="portfolio">
+            <a href="https://rta-trip-planner.herokuapp.com/" class="portfolio__item">
+                <img src="./assets/Screen Shot 2021-11-03 at 01.36.30.png" alt="Travel destination website" class="portfolio__img">
+            </a>
+            <a href="https://github.com/Talha636/readme_generator" class="portfolio__item">
+                <img src="./assets/136590295-e08fdba1-33dc-4ae8-ada1-2b3fc42e6cfa.png" alt="Readme Generator" class="portfolio__img">
+            </a>
+            <a href="https://wickette.github.io/V_A_S_T/" class="portfolio__item">
+                <img src="./assets/Screen Shot 2021-11-03 at 01.40.29.png" alt="Exsercise and Meal generator" class="portfolio__img">
+            </a>
+            <a href="https://talha636.github.io/weather_dashboard/" class="portfolio__item">
+                <img src="./assets/Screen Shot 2021-11-03 at 01.45.21.png" alt="Weather Dashboard" class="portfolio__img">
+            </a>
+            <a href="https://talha636.github.io/password_generator/" class="portfolio__item">
+                <img src="./assets/Screen Shot 2021-11-03 at 01.46.48.png" alt="Password Generator" class="portfolio__img">
+            </a>
+            <a href="https://team4project1.github.io/Bored/" class="portfolio__item">
+                <img src="./assets/Screen Shot 2021-11-03 at 01.49.22.png" alt="Bored API" class="portfolio__img">
+            </a>
+        </div>
+    </section>
+    <!-- footer -->
+    <footer class="footer">
+        <a href="mailto:mtalhalatif@hotmail.com" class="footer__link">mtalhalatif@hotmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://www.linkedin.com/in/talha-latif-4a6263108/">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://github.com/Talha636">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>
